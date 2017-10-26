@@ -48,7 +48,7 @@ var init = function() {
     //end parameter initiation
     nextQuiz();
   })
-
+  
 
 }
 
