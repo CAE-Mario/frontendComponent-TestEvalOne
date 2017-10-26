@@ -60,9 +60,9 @@ var nextQuiz = function(){
 
 //end variable declaration
 
-  client.sendRequest("GET", "videoquiz/getQuiz/"+window., "", "", {}, false,
+  client.sendRequest("GET", "videoquiz/getQuiz/"+window.quizCounter, "", "", {}, false,
   function(data, type) {
-    console.log(data);
+    if
   },
   function(error) {
     console.log(error);
