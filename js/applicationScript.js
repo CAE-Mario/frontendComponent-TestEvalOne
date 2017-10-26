@@ -62,7 +62,7 @@ var nextQuiz = function(){
 
   client.sendRequest("GET", "videoquiz/getQuiz/"+window.quizCounter, "", "", {}, false,
   function(data, type) {
-    if(Object.keys())
+    if(Object.keys(data).length > 0)
   },
   function(error) {
     console.log(error);
