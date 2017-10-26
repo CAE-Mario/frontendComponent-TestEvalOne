@@ -74,7 +74,6 @@ var nextQuiz = function(){
          $('label').hide();
          $('button').hide();
     }
-
     }
 
   },
